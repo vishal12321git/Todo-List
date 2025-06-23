@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+    <header class="h-12 text-2xl flex justify-center items-center">Todo List</header>
+    <main class="w-[30%] m-auto border-1 flex flex-col items-center mt-16 p-4">
+        <div class="flex gap-4">
+            <input class="border-1" type="text" placeholder="item" id="input">
+            <button class="add border-1">Add</button>
+            <button class="save border-1 hidden">Save</button>
+        </div>
+        
+        <div class="item-container flex flex-col gap-4 mt-4">
+            <!-- <div class="item flex gap-4">
+                <div class="item-name"></div>
+                <div class="edit">Edit</div>
+                <div class="del">Del</div>
+            </div> -->
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
